@@ -18,10 +18,13 @@ function currentLine(line){
     return("The line is currently empty.")
   }
   else{
-    var result = ('The line is currently:')
+    //var result = ('The line is currently:')
+    var Q = []
     for (let i=0; i < line.length; ++i){
-    result = result+` ${i+1}. ${line[i]},`
+    Q[i] = [` ${i+1}. ${line[i]}`]  
+    //result = result+` ${i+1}. ${line[i]},`
     }
-    return(result)
+    //return(result)
+    return('The line is currently:'+Q)
   }
 }
