@@ -21,7 +21,7 @@ function currentLine(line){
     //var result = ('The line is currently:')
     var Q = []
     for (let i=0; i < line.length; ++i){
-    Q[i] = [` ${i+1}. ${line[i]}`]  
+    Q[i] = [` ${i+1}. ${line[i]}`]
     //result = result+` ${i+1}. ${line[i]},`
     }
     //return(result)
